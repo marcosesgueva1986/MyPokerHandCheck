@@ -442,8 +442,9 @@ def highest_card_rank(rank, cards_player1, cards_player2 ):
 
 #-------------------------------
 
-f=open('poker-hands.txt','r')
-#my_line=f.readline().rstrip().split(' ')
+filename=input('Enter your filename with the Poker hands including .txt extension:')
+#f=open('poker-hands.txt','r')
+f=open(filename,'r')
 
 for line in f:
 	#print("Reading line in while loop" )
